@@ -1,0 +1,8 @@
+/* defaults */
+body {
+	max-width: 600px;
+	margin: 1em auto;
+	padding: 1em;
+}
+
+img, iframe {	width: 100%; }

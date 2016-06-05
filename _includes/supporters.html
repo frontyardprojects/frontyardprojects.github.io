@@ -1,0 +1,21 @@
+#### Friends who’ve contributed to the cause:
+
+{% capture friends %}
+	{% for friend in site.data.supporters.friends %}
+		{% if friend.link %}
+			[{{friend.name}}]({{friend.link}})
+		{% else %}
+			{{friend.name}}
+		{% endif %}
+		{% unless forloop.last %}
+			, 
+		{% endunless %}
+	{% endfor %}
+{% endcapture %}
+{{ friends | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip }}
+
+
+{% for support in site.data.supporters.monthly %}
+<hr>
+{% include supporters_by_index.html index=forloop.index %}
+{% endfor %}

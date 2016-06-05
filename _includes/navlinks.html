@@ -1,0 +1,56 @@
+{% capture html %}
+
+	{% if include.context == "/" %}
+
+		{% if page.url == "/" %}
+			<del>home</del>
+		{% else %}
+			<a href="{{ site.baseurl }}/">home</a>
+		{% endif %}
+		 | 
+	{% endif %}
+
+	{% assign entries = site.pages | sort: "path" %}
+
+	{% for entry in entries %}
+
+		{% capture slug %}{{ entry.url | split: "/" | last }}{% endcapture %}
+		{% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+		{% if current == include.context %}
+			
+			{% assign title = entry.title | default: slug | downcase | replace:'%20',' ' %}
+			
+			{% if page.url contains entry.url %}
+				{% if page.url == entry.url %}
+					<del>{{ title }}</del>
+				{% else  %}
+					{% assign paths = page.url | split: "/" %}
+					{% assign urlpath = '' %}
+					{% for path in paths %}
+						{% assign urlpath = urlpath | append: path | append: '/' %}	
+						{% assign t = path | downcase | replace:'%20',' ' %}
+						{% for e in site.pages %}
+							{% if e.url == urlpath %}
+								{% assign t = e.title | default: path | downcase | replace:'%20',' ' %}
+								{% break %}
+							{% endif %}
+						{% endfor %}
+						{% if page.url == urlpath %}
+							<del>{{ t }}</del>
+						{% elsif forloop.index > 1 %}
+							<a href="{{ site.baseurl }}{{ urlpath }}">{{ t }}</a> / 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			{% else %}
+				<a href="{{ site.baseurl }}{{ entry.url }}">{{ title }}</a> 
+			{% endif %}
+		
+			|
+		
+		{% endif %}
+
+	{% endfor %}
+
+{% endcapture %}
+{{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip | split : '|' | join : ' | '}}

@@ -1,0 +1,13 @@
+
+<div id="navigation">
+<h2>
+{% include navlinks.html context='/' %}
+</h2>
+{% assign depth = page.url | split: "/" | size %}
+{% if depth > 1 %}
+	{% capture links %}{% include navlinks.html context=page.url %}{% endcapture %}
+	{% if links.size > 2 %}
+	<h3>more: {{ links }}</h3>
+	{% endif %}
+{% endif %}
+</div>

@@ -1,0 +1,12 @@
+**An index:**
+<p>
+{% for resident in site.data.residents %}
+<a href="#resident-{{ forloop.index }}">{{resident.name}}</a>
+{% unless forloop.last %} * {% endunless %}
+{% endfor %}
+</p>
+* * * *
+{% for resident in site.data.residents %}
+<h4 id="resident-{{ forloop.index }}">{{ resident.name }} ({{ resident.location }}, {{resident.dates}} ):</h4>
+{{ resident.about | markdownify }}
+{% endfor %} 

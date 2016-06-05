@@ -1,0 +1,12 @@
+{% if include.index %}
+	{% assign support = site.data.supporters.monthly[include.index] %}
+{% else %}
+	{% assign support = site.data.supporters.monthly[0] %}
+{% endif %}
+
+#### {{support.month}} Donors @ Frontyard:
+<p>
+{% for cover in support.covered %}
+(${{cover.value}}) {{cover.item}} brought you by {% if cover.name %}<span style="color:red">{{cover.name}}</span>{% else %} ______{% endif %} <br>
+{% endfor %}
+</p>

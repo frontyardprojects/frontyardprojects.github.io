@@ -6,16 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: frontyard
+email: info@frontyardprojects.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research, with arts at its heart. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://frontyardprojects.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: true
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
