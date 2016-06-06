@@ -1,0 +1,24 @@
+<div id='calendar'></div>
+<script type="text/javascript">
+	var el = document.getElementById('calendar');
+	el.innerHTML = '<h3>Fetching Events...</h3>';
+	function ajax(url, callback, data, x) {
+		try {
+			x = new (this.XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
+			x.open(data ? 'POST' : 'GET', url, 1);
+			x.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+			x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+			x.onreadystatechange = function () {
+				if(x.readyState > 3 && callback)
+					callback(x.responseText, x);
+			};
+			x.send(data);
+		} catch (e) {
+			console.log(e);
+		}
+	}
+	ajax('http://frontyardprojects.org/calendar',cb);
+	function cb(res) {
+		el.innerHTML = res;
+	}
+</script>

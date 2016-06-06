@@ -24,3 +24,4 @@ and email us what you would like to "cover us" for.
 ------
 
 ![floorplan](/images/floorplan.jpg)
+
