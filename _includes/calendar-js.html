@@ -1,7 +1,7 @@
 <div id='calendar'></div>
 <script type="text/javascript">
 	var el = document.getElementById('calendar');
-	el.innerHTML = '<h3>Fetching Events...</h3>';
+	el.innerHTML = '<h2>Loading Upcoming Events...</h3>';
 	function ajax(url, callback, data, x) {
 		try {
 			x = new (this.XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
