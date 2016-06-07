@@ -1,24 +1,77 @@
-<div id='calendar'></div>
+<div id='calendar'><noscript>Javascript is required to fetch upcoming events from the google calendar</noscript></div>
+<script type="text/javascript" src="/js/micromarkdown.js"></script>
 <script type="text/javascript">
-	var el = document.getElementById('calendar');
-	el.innerHTML = '<h2>Loading Upcoming Events...</h3>';
-	function ajax(url, callback, data, x) {
-		try {
-			x = new (this.XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0');
-			x.open(data ? 'POST' : 'GET', url, 1);
-			x.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-			x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-			x.onreadystatechange = function () {
-				if(x.readyState > 3 && callback)
-					callback(x.responseText, x);
-			};
-			x.send(data);
-		} catch (e) {
-			console.log(e);
-		}
+
+	function loadCal() {
+		gapi.client.setApiKey('AIzaSyC-ETCMeqX_Hej9g-ihPGa69pdvFVCbfYg');
+		gapi.client.load('calendar', 'v3', listUpcomingEvents);
+		var cal = document.getElementById('calendar');
+		cal.innerHTML = '<h3>Loading Events and Residents:<h3>';
 	}
-	ajax('http://frontyardprojects.org/calendar',cb);
-	function cb(res) {
-		el.innerHTML = res;
+
+	function listUpcomingEvents() {
+		console.log('get');
+		gapi.client.calendar.events.list({
+				'calendarId': 'frontyardprojects@gmail.com',
+				'timeMin': (new Date()).toISOString(),
+				'showDeleted': false,
+				'singleEvents': true,
+				'maxResults': 10,
+				'orderBy': 'startTime'
+		}).execute( function(resp) {
+			var events = resp.items;
+			var html = '<h3>Upcoming Events and Residents:</h3>';
+			if (events.length > 0) {
+				html += '<ul>';
+				for (i = 0; i < events.length; i++) {
+					var event = events[i];
+					console.log(event);
+					var start = new Date( event.start.dateTime || event.start.date);
+					var end = new Date( event.end.dateTime || event.end.date);
+					html += '<li>'+renderEvent(event.summary, event.description, start,end) + '</li>';
+					if(i!=events.length-1)
+						html += '<hr>';
+				}
+				html += '</ul>';
+			} else {
+				html += '<p>No upcoming events found.</p>';
+			}
+			var cal = document.getElementById('calendar');
+			cal.innerHTML = html;
+		});
+	}
+	
+	function renderEvent(title, summary, start,end) {
+		var html = '<strong>'+title+'</strong></br><em>';
+		if((start.getMonth() !== end.getMonth()) || 
+			 (start.getYear() !== end.getYear()) ||
+			 (start.getDate() !== end.getDate()) ) {
+			html += prettyDate(start) +' –' +'</br>' + prettyDate(end);
+		} else {
+			html += prettyDate(start) + '</br>' + 
+							prettyTime(start) +' – ' + prettyTime(end);
+		}
+		html += '</em>';
+		html += '<p>'+micromarkdown.parse(summary)+'</p>';
+		return html;
+	}
+
+	function prettyDate(d) {
+		var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+		var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		var month = months[d.getMonth()];
+		var day = days[d.getDay()]; 
+		var date = d.getDate();
+		var year = d.getFullYear();
+		return day+', ' + month + ' ' + date +', ' + year;
+	}
+
+	function prettyTime(d) {
+		var h = d.getHours();
+		var m = d.getMinutes();
+		var t = (h>=12)?' PM':' AM';
+		if(h>12) h-=12;
+		return h+':'+((m<10)?'0':'')+m+t;
 	}
 </script>
+<script src="https://apis.google.com/js/client.js?onload=loadCal"></script>

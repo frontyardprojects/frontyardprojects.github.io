@@ -7,6 +7,6 @@
 </p>
 * * * *
 {% for resident in site.data.residents %}
-<h4 id="resident-{{ forloop.index }}">{{ resident.name }} ({{ resident.location }}, {{resident.dates}} ):</h4>
+<h4 id="resident-{{ forloop.index }}">{{ resident.name }}:<br><em>{{ resident.location }}, {{resident.dates}}</em></h4>
 {{ resident.about | markdownify }}
 {% endfor %} 
