@@ -1,0 +1,9 @@
+#
+# add money tally to the top of this document 
+# over time we will then be able to show a graph of our finances
+# e.g.
+# - value: x
+#   date: Day/Month/Year
+#
+- value: 2383.33
+  date: 07/06/2006 #day,month,year
