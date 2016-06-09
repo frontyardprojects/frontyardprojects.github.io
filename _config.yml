@@ -36,4 +36,4 @@ defaults:
 prose:
   media: "images"
   siteurl: "http://www.frontyardprojects.org"
-  ignore: ['CNAME', '_config.yml', 'css/', 'js/', '_posts/','_layouts/','_includes/','_sass', '.gitignore']
+  ignore: ['CNAME', '_config.yml', 'css', 'js', '_posts','_layouts','_includes','_sass', '.gitignore']
