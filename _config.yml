@@ -38,7 +38,7 @@ prose:
   siteurl: "http://www.frontyardprojects.org"
   ignore: ['CNAME', '_config.yml', 'css', 'js', '_posts','_layouts','_includes','_sass', '.gitignore']
   metadata:
-    _supporters:
+    "":
       name: month
       field: select
       options:
