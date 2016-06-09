@@ -34,19 +34,20 @@ defaults:
       layout: default
 
 prose:
-  media: "images"
-  siteurl: "http://www.frontyardprojects.org"
+  media: images
+  siteurl: http://www.frontyardprojects.org
   ignore: ['CNAME', '_config.yml', 'css', 'js', '_posts','_layouts','_includes','_sass', '.gitignore']
   metadata:
     '':
       - name: month
-        field: select
-        options:
-          - name: 'April'
-            value: 'April'
-          - name: 'Jan'
-            value: 'January'
+        field: 
+          element: 'select'
+          options:
+            - name: 'April'
+              value: 'April'
+            - name: 'Jan'
+              value: 'January'
       - name: value
-        field: Number
-        label: dollar value for supporters
-
+        field: 
+          element: Number
+          label: dollar value for supporters
