@@ -19,7 +19,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: true
-  
+
+collections:
+  supporters:
+    output: false
+  residents:
+    output: false
+
 defaults:
   -
     scope:

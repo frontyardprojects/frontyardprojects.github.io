@@ -1,12 +1,13 @@
 **An index:**
+{%assign residents = site.residents%}
 <p>
-{% for resident in site.data.residents %}
+{% for resident in residents %}
 <a href="#resident-{{ forloop.index }}">{{resident.name}}</a>
 {% unless forloop.last %} * {% endunless %}
 {% endfor %}
 </p>
 * * * *
-{% for resident in site.data.residents %}
-<h4 id="resident-{{ forloop.index }}">{{ resident.name }}:<br><em>{{ resident.location }}, {{resident.dates}}</em></h4>
-{{ resident.about | markdownify }}
+{% for resident in residents %}
+<h4 id="resident-{{ forloop.index }}">{{ resident.name }}:<br><em>{{ resident.location }}, {{ resident.dates }}</em></h4>
+{{ resident.content }}
 {% endfor %} 

@@ -5,4 +5,4 @@
 
 Frontyard is made possible by the generous support of our community.
 
-{% include supporters.html %}
+{% include all_supporters.html %}

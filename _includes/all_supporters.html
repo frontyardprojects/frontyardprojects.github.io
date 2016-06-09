@@ -1,7 +1,8 @@
+
 #### Friends who’ve contributed to the cause:
 
 {% capture friends %}
-	{% for friend in site.data.supporters.friends %}
+	{% for friend in site.data.friends %}
 		{% if friend.link %}
 			[{{friend.name}}]({{friend.link}})
 		{% else %}
@@ -14,8 +15,7 @@
 {% endcapture %}
 {{ friends | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip }}
 
-
-{% for support in site.data.supporters.monthly %}
+{% for month in site.supporters %}
 <hr>
-{% include supporters_by_index.html index=forloop.index %}
+{% include supporter.html context=month %}
 {% endfor %}
