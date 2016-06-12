@@ -2,15 +2,13 @@
 <html>
   {% include head.html %}
   <body>
-
     {% include header.html %}
-
-    <div class="content">
+    <main class="content">
       {{ content }}
-    </div>
-    
+    </main>
     {% capture footer %}{% include footer.md %}{% endcapture %}
+    <footer>
     {{ footer | markdownify }}
-
+    </footer>
   </body>
 </html>
