@@ -46,6 +46,7 @@ prose:
       - name: location
         field:
           element: select
+          label: location
           options:
             - name: 'Getaroom A'
               value: 'Getaroom A'
@@ -57,7 +58,7 @@ prose:
               value: 'Out the back'
       - name: dates
         field:
-          value: text
+          element: text
           label: dates of residency
     _supporters:
       - name: month
