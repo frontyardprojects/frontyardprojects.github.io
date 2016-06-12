@@ -38,16 +38,29 @@ prose:
   siteurl: http://www.frontyardprojects.org
   ignore: ['CNAME', '_config.yml', 'css', 'js', '_posts','_layouts','_includes','_sass', '.gitignore']
   metadata:
-    '':
+    _residents:
+      - name: name
+        field:
+          element: text
+          label: 'Residents name'
+      - name: location
+        field:
+          element: select
+          options:
+            - name: 'Getaroom A'
+              value: 'Getaroom A'
+            - name: 'Getaroom B'
+              value: 'Getaroom B'
+            - name: 'Library'
+              value: 'The Library'
+            - name: 'Out the back'
+              value: 'Out the back'
+      - name: dates
+        field:
+          value: text
+          label: dates of residency
+    _supporters:
       - name: month
         field: 
-          element: 'select'
-          options:
-            - name: 'April'
-              value: 'April'
-            - name: 'Jan'
-              value: 'January'
-      - name: value
-        field: 
-          element: Number
-          label: dollar value for supporters
+          element: 'text'
+          label: month covered (eg. January not Jan)
