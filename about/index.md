@@ -16,6 +16,8 @@ Follow us on [Twitter](https://twitter.com/Frontyard_Inc), [Instagram](https://w
 
 [\#freethearts](https://twitter.com/hashtag/freethearts) [\#frontyardprojects](https://twitter.com/hashtag/frontyardprojects)
 
+-----
+
 ### In the words of others:
 
 [Decommissioning and recommissioning: first day at frontyard](https://marketsplacescities.wordpress.com/2016/05/26/decommissioning-and-recommissioning-first-day-at-frontyard/) (May 2016)
