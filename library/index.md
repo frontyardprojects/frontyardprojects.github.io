@@ -15,8 +15,8 @@ The collection needs to be catalogued. If you are interested in helping, please 
 **Note:** *The Australia Council’s library was decommissioned in November 2014 due to very low usage levels over a sustained period. While the collection was small the Council has endeavoured to have key materials remain publicly available through donations to other libraries. Items that were unique to the Australia Council collection have been offered to the National Library of Australia in Canberra.*
 
 We would like to thank:
-+ The Australia Council for the Arts and Rachel Smithies and Amanda Coombes in particular for their generous donation of the collection to \*\*Frontyard\*\*.
-+ Marrickville Library for lending us some bookends
+ + The Australia Council for the Arts and Rachel Smithies and Amanda Coombes in particular for their generous donation of the collection to \*\*Frontyard\*\*.
+ + Marrickville Library for lending us some bookends
 
 **View the currently catalogued books in this growing google [spreadsheet](https://docs.google.com/spreadsheets/d/1IMTYu5F9psAe4sPoeUukPdNY-qRq-LZaDIjl3eV2DC8/pubhtml).**
 

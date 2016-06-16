@@ -1,5 +1,5 @@
 **An index:**
-{%assign residents = site.residents%}
+{% assign residents = site.residents | reverse %}
 <p>
 {% for resident in residents %}
 <a href="#resident-{{ forloop.index }}">{{resident.name}}</a>
