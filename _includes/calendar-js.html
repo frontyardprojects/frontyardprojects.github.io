@@ -32,7 +32,7 @@
 					console.log(event);
 					var start = new Date( event.start.dateTime || event.start.date);
 					var end = new Date( event.end.dateTime || event.end.date);
-					html += '<li>'+renderEvent(event.summary, event.description, start,end) + '</li>';
+					html += '<li>'+renderEvent(event.summary, (event.description || "*More details to come*"), start,end) + '</li>';
 					if(i!=events.length-1)
 						html += '<hr>';
 				}
