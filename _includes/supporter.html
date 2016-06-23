@@ -3,7 +3,7 @@
 <h4>{{include.context.month}} Donors @ Frontyard:</h4>
 <p>
 {% for cover in include.context.covered %}
-(${{cover.value}}) {{cover.item}} brought you by {% if cover.name %}<span style="color:red">{{cover.name}}</span>{% else %} ______{% endif %} <br>
+(${{cover.value}}) {{cover.item}} brought to you by {% if cover.name %}<span style="color:red">{{cover.name}}</span>{% else %} ______{% endif %} <br>
 {% endfor %}
 </p>
 {% endif %}
