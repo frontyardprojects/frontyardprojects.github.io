@@ -1,4 +1,4 @@
-<div id='calendar'>
+<div id='calendar' data-year='{{include.year}}' data-month='{{include.month}}'>
 <noscript>Javascript is required to fetch upcoming events from the google calendar</noscript>
 <script type="text/javascript">
 	var cal = document.getElementById('calendar');
@@ -8,27 +8,57 @@
 <script type="text/javascript" src="/js/micromarkdown.js"></script>
 <script type="text/javascript">
 
+	var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	var calendar_id = 'frontyardprojects@gmail.com';
+
 	function loadCal() {
 		gapi.client.setApiKey('AIzaSyC-ETCMeqX_Hej9g-ihPGa69pdvFVCbfYg');
-		gapi.client.load('calendar', 'v3', listUpcomingEvents);
+		gapi.client.load('calendar', 'v3', function() {
+			var cal = document.getElementById('calendar');
+			var month = cal.getAttribute('data-month');
+			var year = cal.getAttribute('data-year');
+			console.log(typeof month, cal.getAttribute('data-month'));
+			if(year !== '' &&  month !== ''){
+				listEventsByMonth(Math.floor(Number(year)),Math.floor(Number(month)));
+			} else {
+				listUpcomingEvents();
+			}
+		});
+	}
+
+	function listEventsByMonth(year,month) {
+		listEvents({
+			'calendarId': calendar_id,
+			// 'timeMin': (new Date(year,month)).toISOString(),
+			'timeMax': (new Date()).toISOString(),//(new Date(year,month+1)).toISOString(),
+			'showDeleted': false,
+			'singleEvents': true,
+			'maxResults': 300,
+			'orderBy': 'startTime'
+		}, "All Past Events", true);
 	}
 
 	function listUpcomingEvents() {
-		console.log('get');
-		gapi.client.calendar.events.list({
-				'calendarId': 'frontyardprojects@gmail.com',
+		listEvents({
+				'calendarId': calendar_id,
 				'timeMin': (new Date()).toISOString(),
 				'showDeleted': false,
 				'singleEvents': true,
 				'maxResults': 15,
 				'orderBy': 'startTime'
-		}).execute( function(resp) {
+		}, "Upcoming Events and Residents");
+	}
+
+	function listEvents(options, heading, reverse) {
+		gapi.client.calendar.events.list(options)
+		.execute( function(resp) {
 			var events = resp.items;
-			var html = '<h3>Upcoming Events and Residents:</h3>';
+			var html = '<h3>'+heading+':</h3>';
 			if (events.length > 0) {
 				html += '<ul>';
 				for (i = 0; i < events.length; i++) {
-					var event = events[i];
+					var event = events[(reverse) ? events.length-1-i :i];
 					console.log(event);
 					var start = new Date( event.start.dateTime || event.start.date);
 					var end = new Date( event.end.dateTime || event.end.date);
@@ -38,7 +68,7 @@
 				}
 				html += '</ul>';
 			} else {
-				html += '<p>No upcoming events found.</p>';
+				html += '<p>No events found.</p>';
 			}
 			var cal = document.getElementById('calendar');
 			cal.innerHTML = html;
@@ -65,8 +95,6 @@
 	}
 
 	function prettyDate(d) {
-		var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-		var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 		var month = months[d.getMonth()];
 		var day = days[d.getDay()]; 
 		var date = d.getDate();
