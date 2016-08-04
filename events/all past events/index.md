@@ -12,4 +12,3 @@
 [View our full calendar](https://calendar.google.com/calendar/embed?src=frontyardprojects%40gmail.com&ctz=Australia/Sydney)
 or [add Frontyard to your own calendar](https://calendar.google.com/calendar/ical/frontyardprojects%40gmail.com/public/basic.ics).
 
-
