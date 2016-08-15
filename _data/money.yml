@@ -1,10 +1,15 @@
 #
-# add money tally to the top of this document 
-# over time we will then be able to show a graph of our finances
+# top value shows (+ bank balance - closure fund - debts)
+# archive shows bank balance
+# over time we show a graph of our finances
 # e.g.
 # - value: x
 #   date: Day/Month/Year
 #
+- value: 364.74
+  date: 15/08/2016
+- value: 2207.16
+  date: 29/07/2016
 - value: 2207.16
   date: 29/07/2016
 - value: 2580.13
@@ -12,4 +17,10 @@
 - value: 2579.37
   date: 27/06/2016
 - value: 2383.33
-  date: 07/06/2016 #day,month,year
+  date: 07/06/2016
+
+- debt: 422.97
+  date_paid: 29/07/2016
+
+- closure: 2000.00
+  necessary_as_of_date: 01/08/2016
