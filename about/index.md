@@ -12,7 +12,7 @@
 - non-lending library
 - dinners & picnics
 
-Follow us on [Twitter](https://twitter.com/Frontyard_Inc), [Instagram](https://www.instagram.com/frontyardorg/) and [Facebook](https://www.facebook.com/Frontyard-144414939266114/).
+Follow us on [Twitter](https://twitter.com/Frontyard_Inc), [Instagram](https://www.instagram.com/frontyardorg/), [Facebook](https://www.facebook.com/Frontyard-144414939266114/), and [flickr](https://www.flickr.com/photos/139358427@N03/albums).
 
 [\#freethearts](https://twitter.com/hashtag/freethearts) [\#frontyardprojects](https://twitter.com/hashtag/frontyardprojects)
 
@@ -41,13 +41,16 @@ A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the lo
 
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
-**Co-founders:** 
+**Current Board:**
 Connie Anthes (Secretary, Public Officer) 
-Rei Cheetham
 Clare Cooper (Chair) 
 Alexandra Crosby 
 Benjamin Forster (Deputy Chair) 
-Jehan Kanga (Treasurer)
+Eddie Hopely (Treasurer)
+
+**Co-founders:** 
+Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby, 
+Benjamin Forster, Jehan Kanga.
 
 * * * *
 
