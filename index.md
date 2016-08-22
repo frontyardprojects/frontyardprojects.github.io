@@ -22,7 +22,10 @@ If you want to make a donation the Frontyard banking details are:
 **BSB 032067 / account # 577740**
 and email us what you would like to "cover us" for.
 
+
 ------
 
 ![floorplan](/images/floorplan.jpg)
+
+Frontyard is currently supported by a rental subsidy from Inner West Council (aka Marrickville Council).
 
