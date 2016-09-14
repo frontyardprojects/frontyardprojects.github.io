@@ -1,0 +1,95 @@
+<div id='library-calendar'>
+	<noscript>Javascript is required to fetch upcoming events from the google calendar</noscript>
+	<script type="text/javascript">
+		var cal = document.getElementById('library-calendar');
+		cal.innerHTML = '<p style="color:#555"><strong>LOADING LIBRARY OPENING HOURS.</strong></p>';
+	</script>
+</div>
+<script type="text/javascript" src="/js/micromarkdown.js"></script>
+<script type="text/javascript">
+	var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	var calendar_id = 'cn973674iouken4h37626qmio4@group.calendar.google.com';
+
+	function loadCal() {
+		gapi.client.setApiKey('AIzaSyC-ETCMeqX_Hej9g-ihPGa69pdvFVCbfYg');
+		gapi.client.load('calendar', 'v3', function() {
+			var cal = document.getElementById('library-calendar');
+			var month = cal.getAttribute('data-month');
+			var year = cal.getAttribute('data-year');
+			weekDays();
+		});
+	}
+
+	function weekDays() {
+		var today = new Date();
+		var inAWeek = new Date();
+		inAWeek.setHours(0);
+		inAWeek.setDate(inAWeek.getDate()+7);
+		gapi.client.calendar.events.list({
+				'calendarId': calendar_id,
+				'timeMin': today.toISOString(),
+				'timeMax': inAWeek.toISOString(),
+				'showDeleted': false,
+				'singleEvents': true,
+				'maxResults': 1000,
+				'orderBy': 'startTime'
+		})
+		.execute( function(resp) {
+			var events = resp.items;
+			var day = today.getDay();
+			var times = new Array(7);
+			if (events.length > 0) {
+				for (i = 0; i < events.length; i++) {
+					var event = events[i];
+					console.log(event);
+					var start = new Date(event.start.dateTime);
+					var end = new Date(event.end.dateTime);
+					if(start.getDate() === end.getDate() ) {
+						var event_day = start.getDay();
+						var offset = ((day+7) - event_day)%7;
+						if (!times[offset]) {
+							times[offset] = '<strong>'+days[offset] + ':</strong> ' + prettyTime(start) + "-" + prettyTime(end);
+						} else {
+							times[offset] += ' / ' + prettyTime(start) + "-" + prettyTime(end);
+						}
+					} else {
+						console.log('an event is over two of more days and not shown.');
+					}
+				}
+			}
+			var cal = document.getElementById('library-calendar');
+			cal.innerHTML = renderLibraryDays(times);
+		});
+	}
+
+	function renderLibraryDays(times) {
+		var html = "<p><strong>LIBRARY OPENING HOURS:</strong><br>" + "";
+
+		for (var i=0; i<times.length; i++) {
+			if(times[i]) {
+				html += times[i] + '<br>';
+			}
+		}
+		html += "</p>";
+		return html;
+	}
+
+	function prettyDate(d) {
+		var month = months[d.getMonth()];
+		var day = days[d.getDay()]; 
+		var date = d.getDate();
+		var year = d.getFullYear();
+		return day+', ' + month + ' ' + date +', ' + year;
+	}
+
+	function prettyTime(d) {
+		var h = d.getHours();
+		var m = d.getMinutes();
+		var t = (h>=12)?' PM':' AM';
+		if(h>12) h-=12;
+		return h+':'+((m<10)?'0':'')+m+t;
+	}
+
+</script>
+<script src="https://apis.google.com/js/client.js?onload=loadCal"></script>
