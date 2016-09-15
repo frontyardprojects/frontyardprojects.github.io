@@ -47,7 +47,7 @@
 					var end = new Date(event.end.dateTime);
 					if(start.getDate() === end.getDate() ) {
 						var event_day = start.getDay();
-						var offset = ((day+7) - event_day)%7;
+						var offset = ((event_day+7) - day)%7;
 						if (!times[offset]) {
 							times[offset] = '<strong>'+days[offset] + ':</strong> ' + prettyTime(start) + "-" + prettyTime(end);
 						} else {
