@@ -1,17 +1,6 @@
 ---
 ---
 
-{% include library-calendar-js.html %}
-*Note: These are not set weekly hours. The times change every week as the Library is only open whenever librarians are available.*
-*\(If you have difficulty seeing the times above check the calendar [here](https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cn973674iouken4h37626qmio4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Australia%2FSydney)*\)
-
-1.  BOOKS ARE FOR USE.
-2.  EVERY READER HIS [OR HER] BOOK.
-3.  EVERY BOOK ITS READER.
-4.  SAVE THE TIME OF THE USER.
-5.  THE LIBRARY IS A GROWING ORGANISM.
-(*S. R. Ranganathan, 1931*)
-
 ---------
 
 ### Search the collection
@@ -26,6 +15,18 @@ Explore the full online catalogue [here](http://library.frontyardprojects.org/).
 *The catalogue is also available via this [google spreadsheet](https://docs.google.com/spreadsheets/d/1IMTYu5F9psAe4sPoeUukPdNY-qRq-LZaDIjl3eV2DC8/pubhtml).*
 
 ---------
+
+
+{% include library-calendar-js.html %}
+*Note: These are not set weekly hours. The times change every week as the Library is only open whenever librarians are available.*
+*\(If you have difficulty seeing the times above check the calendar [here](https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cn973674iouken4h37626qmio4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Australia%2FSydney)*\)
+
+1.  BOOKS ARE FOR USE.
+2.  EVERY READER HIS [OR HER] BOOK.
+3.  EVERY BOOK ITS READER.
+4.  SAVE THE TIME OF THE USER.
+5.  THE LIBRARY IS A GROWING ORGANISM.
+(*S. R. Ranganathan, 1931*)
 
 ### About the collection
 
