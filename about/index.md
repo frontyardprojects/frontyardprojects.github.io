@@ -33,6 +33,9 @@ By Jai Pyne (local artist/writer)
 [At the Edges of Art, Technology and Democracy](https://www.openaustraliafoundation.org.au/2016/06/07/at-the-edges-of-art-and-technology/) (June 2016)
 By Alexandra Crosby (previous resident and co-founder of frontyard) 
 
+[Frontyard, a starting point](http://walkinglab.org/frontyard-a-starting-point/) (October 2016)
+By Mapping Edges (pervious residents at Frontyard)
+
 * * * *
 
 ### In a few more words:
