@@ -6,7 +6,9 @@
 # - value: x
 #   date: Day/Month/Year
 #
-- value: 670.01
+- value: 1090.75
+  date: 14/11/2016
+- value: 2670.01
   date: 26/10/2016
 - value: 2475.01
   date: 11/10/2016
