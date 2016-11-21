@@ -9,69 +9,101 @@
 <script type="text/javascript">
 	var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-	var calendar_id = 'cn973674iouken4h37626qmio4@group.calendar.google.com';
+
+	var calendarIds = ['cn973674iouken4h37626qmio4@group.calendar.google.com','frontyardprojects@gmail.com'];
 
 	function loadCal() {
 		gapi.client.setApiKey('AIzaSyC-ETCMeqX_Hej9g-ihPGa69pdvFVCbfYg');
-		gapi.client.load('calendar', 'v3', function() {
+		gapi.client.load('calendar', 'v3', function () {
 			var cal = document.getElementById('library-calendar');
 			var month = cal.getAttribute('data-month');
 			var year = cal.getAttribute('data-year');
-			weekDays();
+			calculateWeekDays();
 		});
 	}
 
-	function weekDays() {
+	function calculateWeekDays() {
 		var today = new Date();
 		var inAWeek = new Date();
 		inAWeek.setHours(0);
 		inAWeek.setDate(inAWeek.getDate()+7);
-		gapi.client.calendar.events.list({
-				'calendarId': calendar_id,
+
+		var events;
+		var loadedCalendarCount = 0;
+
+		for(var i = 0; i < calendarIds.length; i++) {
+			console.log(calendarIds[i]);
+			var options = {
+				'calendarId': calendarIds[i],
 				'timeMin': today.toISOString(),
 				'timeMax': inAWeek.toISOString(),
 				'showDeleted': false,
 				'singleEvents': true,
 				'maxResults': 1000,
 				'orderBy': 'startTime'
-		})
-		.execute( function(resp) {
-			var events = resp.items;
-			var day = today.getDay();
-			var times = new Array(7);
-			if (events.length > 0) {
-				for (i = 0; i < events.length; i++) {
-					var event = events[i];
-					console.log(event);
-					var start = new Date(event.start.dateTime);
-					var end = new Date(event.end.dateTime);
-					if(start.getDate() === end.getDate() ) {
-						var event_day = start.getDay();
-						var offset = ((event_day+7) - day)%7;
-						if (!times[offset]) {
-							times[offset] = '<strong>'+days[event_day] + ':</strong> ' + prettyTime(start) + "-" + prettyTime(end);
-						} else {
-							times[offset] += ' / ' + prettyTime(start) + "-" + prettyTime(end);
-						}
+			};
+			gapi.client.calendar.events
+				.list( options )
+				.execute( returned );
+		}
+
+		function returned (resp) {
+			loadedCalendarCount++;
+			if(typeof events === 'undefined') {
+				events = resp.items;
+			} else {
+				if (events) events = events.concat(resp.items);
+				else events = resp.items;
+			}
+			if(loadedCalendarCount === calendarIds.length) {
+				processEventTimes(events);
+			}
+		}
+	}
+
+	function processEventTimes(events) {
+		var today = new Date();
+		var day = today.getDay();
+		var times = new Array(7);
+		if (events.length > 0) {
+			for (i = 0; i < events.length; i++) {
+				var event = events[i];
+				var start = new Date(event.start.dateTime);
+				var end = new Date(event.end.dateTime);
+				var duration = end.getTime() - start.getTime();
+				var isLessThan24Hours = (duration < 86400000);
+				
+
+				if(isLessThan24Hours ) { //&& start.getDate() === end.getDate() 
+					var event_day = start.getDay();
+					var offset = ((event_day+7) - day)%7;
+					if (!times[offset]) {
+						times[offset] = '<strong>'+days[event_day] + ':</strong> ' + prettyTime(start) + "–" + prettyTime(end);
 					} else {
-						console.log('an event is over two of more days and not shown.');
+						times[offset] += ' / ' + prettyTime(start) + "–" + prettyTime(end);
 					}
+				} else {
+					console.log('an event is over two or more days and not shown.');
 				}
 			}
-			var cal = document.getElementById('library-calendar');
-			cal.innerHTML = renderLibraryDays(times);
-		});
+		}
+		var cal = document.getElementById('library-calendar');
+		cal.innerHTML = renderLibraryDays(times);
 	}
 
 	function renderLibraryDays(times) {
-		var html = "<p><strong>LIBRARY OPENING HOURS:</strong><br>" + "";
-
-		for (var i=0; i<times.length; i++) {
-			if(times[i]) {
-				html += times[i] + '<br>';
+		var html;
+		if(times) {
+			html = "<p><strong>OPENING HOURS:</strong><br>" + "";
+			for (var i=0; i<times.length; i++) {
+				if(times[i]) {
+					html += times[i] + '<br>';
+				}
 			}
+			html += "</p>";
+		} else {
+			html = "<p><strong>OPENING HOURS:</strong><br>No times seem to be listed, send us an email to arrange a time.</p>";
 		}
-		html += "</p>";
 		return html;
 	}
 
@@ -86,10 +118,13 @@
 	function prettyTime(d) {
 		var h = d.getHours();
 		var m = d.getMinutes();
-		var t = (h>=12)?' PM':' AM';
+		var t = (h>=12)?'pm':'am';
 		if(h>12) h-=12;
 		return h+':'+((m<10)?'0':'')+m+t;
 	}
 
 </script>
 <script src="https://apis.google.com/js/client.js?onload=loadCal"></script>
+
+*Note: These are not set weekly hours. The times change every week as the Library is only open whenever librarians are available or a event public event is listed.*
+*\(If you have difficulty seeing the times above check the [library calendar](https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cn973674iouken4h37626qmio4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Australia%2FSydney) and/or the [event calendar](https://calendar.google.com/calendar/embed?src=frontyardprojects%40gmail.com&amp;ctz=Australia/Sydney)*\)

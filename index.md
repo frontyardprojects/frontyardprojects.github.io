@@ -11,8 +11,6 @@ Frontyard is open for events and by appointment, every second Thursday from 4.30
 A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research, with arts at its heart. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future. 
 
 {% include library-calendar-js.html %}
-*Note: These are not set weekly hours. The times change every week as the Library is only open whenever librarians are available.*
-*\(If you have difficulty seeing the times above check the calendar [here](https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cn973674iouken4h37626qmio4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Australia%2FSydney)*\)
 
 -------
 {% include mailchimp.html %}
