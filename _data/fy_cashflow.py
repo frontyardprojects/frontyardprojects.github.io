@@ -14,8 +14,8 @@ date =
 debt = 00.00 
 closure_fund = 2000.00
 
-to_archive_balance = 3632.71
-to_archive_date = '17/01/2017'
+to_archive_balance = 3662.71
+to_archive_date = '29/01/2017'
 to_archive_debt = None
 to_archive_paid_date = None
 to_archive_closure_fund = None
@@ -31,7 +31,7 @@ bf_preamble = ('#' + '\n' +
 	'#   date: Day/Month/Year' + '\n' +
 	'#')
 
-balance_archive =['- value: 3430.75', '  date: 29/11/2016', '- value: 3090.75', '  date: 14/11/2016', '- value: 2670.01', '  date: 26/10/2016', '- value: 2475.01', '  date: 11/10/2016', '- value: 2547.86', '  date: 02/10/2016', '- value: 2297.27', '  date: 21/09/2016', '- value: 2002.94', '  date: 14/09/2016', '- value: 2364.74', '  date: 15/08/2016', '- value: 2207.16', '  date: 29/07/2016', '- value: 2580.13', '  date: 17/07/2016', '- value: 2579.37', '  date: 27/06/2016', '- value: 2383.33', '  date: 07/06/2016']
+balance_archive =['- value: 3632.71', '  date: 17/01/2017', '- value: 3430.75', '  date: 29/11/2016', '- value: 3090.75', '  date: 14/11/2016', '- value: 2670.01', '  date: 26/10/2016', '- value: 2475.01', '  date: 11/10/2016', '- value: 2547.86', '  date: 02/10/2016', '- value: 2297.27', '  date: 21/09/2016', '- value: 2002.94', '  date: 14/09/2016', '- value: 2364.74', '  date: 15/08/2016', '- value: 2207.16', '  date: 29/07/2016', '- value: 2580.13', '  date: 17/07/2016', '- value: 2579.37', '  date: 27/06/2016', '- value: 2383.33', '  date: 07/06/2016']
 
 debt_archive =['- debt: 422.97', '  date_paid: 29/07/2016']
 
