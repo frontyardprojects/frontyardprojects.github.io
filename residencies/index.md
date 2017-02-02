@@ -1,4 +1,5 @@
 ---
+title: residencies
 ---
 
 ### Getaroom @ Frontyard

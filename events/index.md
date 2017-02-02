@@ -1,4 +1,5 @@
 ---
+title: events
 ---
 
 ### Get involved:
