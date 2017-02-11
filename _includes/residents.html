@@ -2,12 +2,12 @@
 {% assign residents = site.residents | reverse %}
 <p>
 {% for resident in residents %}
-<a href="#resident-{{ forloop.index }}">{{resident.name}}</a>
+<a href="#resident-{{ forloop.length | minus: forloop.index }}-{{resident.name | url_encode}}">{{resident.name}}</a>
 {% unless forloop.last %} * {% endunless %}
 {% endfor %}
 </p>
 * * * *
 {% for resident in residents %}
-<h4 id="resident-{{ forloop.index }}">{{ resident.name }}:<br><em>{{ resident.location }}, {{ resident.dates }}</em></h4>
+<h4 id="resident-{{ forloop.length | minus: forloop.index }}-{{resident.name | url_encode}}">{{ resident.name }}:<br><em>{{ resident.location }}, {{ resident.dates }}</em></h4>
 {{ resident.content }}
 {% endfor %} 
