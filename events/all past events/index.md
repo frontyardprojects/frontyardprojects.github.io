@@ -1,4 +1,5 @@
 ---
+title: all past events
 ---
 
 ### Get involved:
