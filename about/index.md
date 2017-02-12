@@ -47,10 +47,14 @@ Our aim is to facilitate and nurture collaborations between people with a mix of
 
 **Current Board:**
 Connie Anthes (Secretary, Public Officer) 
+Luke Bacon
 Clare Cooper (Chair) 
 Alexandra Crosby 
 Benjamin Forster (Deputy Chair) 
-Eddie Hopely (Treasurer)
+Eddie Hopely
+Thomas Kern (Co Interim Treasurer)
+Nick McGuigan (Co Interim Treasurer)
+
 
 **Co-founders:** 
 Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby, 
