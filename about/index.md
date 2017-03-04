@@ -9,7 +9,7 @@ title: about
 
 - research residencies
 - public programs
-- futuring 
+- futuring
 - non-lending library
 - dinners & picnics
 
@@ -32,7 +32,7 @@ By Jai Pyne (local artist/writer)
 > ... Frontyard is less concerned with the product and more concerned with facilitating the making of art, involving the community in this process as well as reclaiming the arts back from the corner that they've been jammed into by our increasingly conservative government.
 
 [At the Edges of Art, Technology and Democracy](https://www.openaustraliafoundation.org.au/2016/06/07/at-the-edges-of-art-and-technology/) (June 2016)
-By Alexandra Crosby (previous resident and co-founder of frontyard) 
+By Alexandra Crosby (previous resident and co-founder of frontyard)
 
 [Frontyard, a starting point](http://walkinglab.org/frontyard-a-starting-point/) (October 2016)
 By Mapping Edges (pervious residents at Frontyard)
@@ -41,23 +41,31 @@ By Mapping Edges (pervious residents at Frontyard)
 
 ### In a few more words:
 
-A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the local arts loving community come together for practical skills-sharing, critical research and survival tips. 
+A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the local arts loving community come together for practical skills-sharing, critical research and survival tips.
 
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
 **Current Board:**
-Connie Anthes (Secretary, Public Officer) 
+Connie Anthes (Secretary, Public Officer)
 Luke Bacon
-Clare Cooper (Chair) 
-Alexandra Crosby 
-Benjamin Forster (Deputy Chair) 
-Eddie Hopely
+Kush Badhwar
+Julia Bavyka
+Sally Chessell
+Clare Cooper (Chair)
+Alexandra Crosby
+Jacquelene Drinkall
+Benjamin Forster (Deputy Chair)
 Thomas Kern (Co Interim Treasurer)
+Sophea Lerner
 Nick McGuigan (Co Interim Treasurer)
 
+**Previous Board Members:**
+Rei Cheetham
+Jehan Kanga
+Eddie Hopely
 
-**Co-founders:** 
-Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby, 
+**Co-founders:**
+Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby,
 Benjamin Forster, Jehan Kanga.
 
 * * * *
