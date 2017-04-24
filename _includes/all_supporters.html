@@ -9,13 +9,13 @@
 			{{friend.name}}
 		{% endif %}
 		{% unless forloop.last %}
-			, 
+			,
 		{% endunless %}
 	{% endfor %}
 {% endcapture %}
 {{ friends | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip }}
 
-{% for month in site.supporters %}
+{% for month in site.supporters reversed %}
 <hr>
 {% include supporter.html context=month %}
 {% endfor %}
