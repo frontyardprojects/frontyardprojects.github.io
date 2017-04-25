@@ -19,9 +19,7 @@
     var parseTime = d3.timeParse("%d/%m/%Y");
     var data = frontyardMoney.map(function(v, i) {
         return {
-          value: (i < frontyardMoney.length - 1)
-            ? v.value
-            : v.value,
+          value: v.value,
           date: parseTime(v.date)
         };
       }).reverse();
