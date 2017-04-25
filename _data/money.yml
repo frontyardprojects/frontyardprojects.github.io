@@ -6,33 +6,45 @@
 # - value: x
 #   date: Day/Month/Year
 #
-- value: 1258.79
+- value: 1846.29
+  date: 24/04/2017
+- value: 1668.74
+  date: 15/04/2017
+- value: 1338.80
   date: 30/03/2017
+- value: 1684.25
+  date: 16/03/2017
+- value: 1587.71
+  date: 28/02/2017
+- value: 1372.71
+  date: 15/02/2017
 - value: 1662.71
   date: 29/01/2017
-- value: 3632.71
+- value: 1632.71
   date: 17/01/2017
-- value: 3430.75
+- value: 1364.52
+  date: 31/12/2016
+- value: 1430.75
   date: 29/11/2016
-- value: 3090.75
+- value: 1090.75
   date: 14/11/2016
-- value: 2670.01
+- value: 670.01
   date: 26/10/2016
-- value: 2475.01
-  date: 11/10/2016
-- value: 2547.86
+- value: 475.01
+  date: 12/10/2016
+- value: 547.86
   date: 02/10/2016
-- value: 2297.27
+- value: 297.27
   date: 21/09/2016
-- value: 2002.94
-  date: 14/09/2016
-- value: 2364.74
+- value: 302.94
+  date: 15/09/2016
+- value: 364.74
   date: 15/08/2016
-- value: 2207.16
-  date: 29/07/2016
-- value: 2580.13
+- value: 207.16
+  date: 01/08/2016
+- value: 580.13
   date: 17/07/2016
-- value: 2579.37
+- value: 579.37
   date: 27/06/2016
-- value: 2383.33
-  date: 07/06/2016
+- value: 383.33
+  date: 08/06/2016
