@@ -17,16 +17,16 @@
 
   function drawGraph() {
     var parseTime = d3.timeParse("%d/%m/%Y");
-    var data = frontyardMoney.map(function(v, i) { 
-        return { 
-          value: (i < frontyardMoney.length - 1) 
-            ? v.value 
-            : v.value - frontyardLiabilities.closure, 
-          date: parseTime(v.date) 
+    var data = frontyardMoney.map(function(v, i) {
+        return {
+          value: (i < frontyardMoney.length - 1)
+            ? v.value
+            : v.value - frontyardLiabilities.closure,
+          date: parseTime(v.date)
         };
       }).reverse();
-      
-    var svg = 
+
+    var svg =
       d3.select("div#moneygraph svg")
         .attr("preserveAspectRatio", "xMinYMin meet")
         .attr("viewBox", "0 0 600 100")
@@ -35,9 +35,9 @@
       width = 600 - margin.left - margin.right,
       height = 100 - margin.top - margin.bottom;
 
-    svg.selectAll("*").remove(),
+    svg.selectAll("*").remove();
     var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
+
 
     var x = d3.scaleTime()
         .rangeRound([0, width])
@@ -55,7 +55,7 @@
     // g.append("g")
     //   .attr("transform", "translate(0," + height + ")")
     //   .call(d3.axisBottom(x))
-          
+
       g.append("g")
         .attr("transform", "translate( " + width + ", 0 )")
         .call(d3.axisRight(y)
