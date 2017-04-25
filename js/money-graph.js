@@ -21,7 +21,7 @@
         return {
           value: (i < frontyardMoney.length - 1)
             ? v.value
-            : v.value - frontyardLiabilities.closure,
+            : v.value,
           date: parseTime(v.date)
         };
       }).reverse();
