@@ -2,8 +2,8 @@
 ---
 
 **FRONTYARD PROJECTS** *Local, future-focused arts*
-**BANK BALANCE: <span style="color:green">${{ site.data.money.first.value }}</span>** (last updated {{site.data.money.first.date}})
-**[ANNUAL REPORT 2016](/20170320_FY_StatementsNotes2016.pdf)**
+**BANK BALANCE** <span style="color:green">${{ site.data.money.first.value }}</span> (last updated {{site.data.money.first.date}})
+**ANNUAL REPORT** [2016](/20170320_FY_StatementsNotes2016.pdf)
 **VISIT** [228 Illawarra Rd, Marrickville NSW 2204](https://www.google.com.au/maps/place/228+Illawarra+Rd,+Marrickville+NSW+2204/data=!4m2!3m1!1s0x6b12b0643971d4cf:0xfd04759e18342c41?sa=X&ved=0ahUKEwi7wbr6tt_KAhWo26YKHa5iDxkQ8gEIGzAA)
 **CONTACT** [info[at]frontyardprojects.org](mailto:info@frontyardprojects.org)
 
@@ -23,8 +23,7 @@ A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical ski
 
 If you want to make a donation the Frontyard banking details are:
 **BSB 032067 / account # 577740**
-and email us what you would like to "cover us" for.
-
+and email us what you would like to "cover us" for. Please do not feel constrained by the shown amounts. Every donation, big or small, is welcome and keeps frontyard going.
 
 ------
 
