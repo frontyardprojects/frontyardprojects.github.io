@@ -13,7 +13,7 @@ title: about
 - non-lending library
 - dinners & picnics
 
-[Join us on Slack](https://frontyard-slackin.herokuapp.com/) ![slack badge](https://frontyard-slackin.herokuapp.com/badge.svg)
+[Join us on Slack](https://frontyard-slackin.herokuapp.com/)
 Follow us on [Twitter](https://twitter.com/Frontyard_Inc), [Instagram](https://www.instagram.com/frontyardorg/), [Facebook](https://www.facebook.com/Frontyard-144414939266114/), and [flickr](https://www.flickr.com/photos/139358427@N03/albums).
 
 [\#freethearts](https://twitter.com/hashtag/freethearts) [\#frontyardprojects](https://twitter.com/hashtag/frontyardprojects)
