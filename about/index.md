@@ -41,7 +41,7 @@ By Mapping Edges (pervious residents at Frontyard)
 [Frontyard for Canvas on FBi 94.5FM](https://archive.org/details/Frontyardoncanvas)
 By Olivia Rosenman (Frontyard Kimchi leader and local journalist)
 
-<iframe src="https://archive.org/embed/Frontyardoncanvas" width="500" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="https://archive.org/embed/Frontyardoncanvas" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 * * * *
 
