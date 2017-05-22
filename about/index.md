@@ -38,6 +38,11 @@ By Alexandra Crosby (previous resident and co-founder of frontyard)
 [Frontyard, a starting point](http://walkinglab.org/frontyard-a-starting-point/) (October 2016)
 By Mapping Edges (pervious residents at Frontyard)
 
+[Frontyard for Canvas on FBi 94.5FM](https://archive.org/details/Frontyardoncanvas)
+By Olivia Rosenman (Frontyard Kimchi leader and local journalist)
+
+<iframe src="https://archive.org/embed/Frontyardoncanvas" width="500" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 * * * *
 
 ### In a few more words:
