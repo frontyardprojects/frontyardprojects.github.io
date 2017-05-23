@@ -5,7 +5,7 @@ title: get involved
 # Get involved.
 
 If you would like to participate or lend support to one of our many ongoing projects, this is your definitive list of what’s live and when.
-Initially, it’s best to drop in on our first Thursdays **open house** from 4.30-6.30pm or send an expression of interest to [info@frontyardprojects.org](mailto:info@frontyardprojects.org) and we can put you in touch with the organiser for that project.
+Initially, it’s best to drop in on our first Thursdays **open house** from 4.30-6.30pm or send an expression of interest to [frontyardprojects@gmail.com](mailto:frontyardprojects@gmail.com) and we can put you in touch with the organiser for that project.
 
 #### \* ALT/CONFERENCE: ZINE-MAKERS SYMPOSIUM \*
 Join Jessie Lynn and Sara Rosa in organising a day conference for the Other Worlds Zine Fair in late May 2017.
@@ -54,7 +54,7 @@ Organised by: *Benjamin Forster & Connie Anthes*
 #### \* TANDEM: A LANGUAGE EXCHANGE CLUB \*
 Tandem, or language exchanges, are a relaxed and effective way to learn or improve a language. Two (or more) people who speak different languages meet to practice each other’s language. The desired language is spoken by your ‘tandem’ partner. This means that both languages can be spoken and practiced in a language exchange.
 For this to work, we need to build up a pool of language learners, who will be matched with language partners.
-We are currently working on a Tandem Partner Pool, please contact us: [info@frontyardprojects.org](info@frontyardprojects.org), contact Julia Bavyka
+We are currently working on a Tandem Partner Pool, please contact us: [frontyardprojects@gmail.com](frontyardprojects@gmail.com), contact Julia Bavyka
 
 #### \* YOUR IDEA \*
 If you want to organise something and invite others to be involved, drop in and have a chat. We will add it here.

@@ -5,7 +5,7 @@
 **BANK BALANCE** <span style="color:green">${{ site.data.money.first.value }}</span> (last updated {{site.data.money.first.date}})
 **ANNUAL REPORT** [2016](/20170320_FY_StatementsNotes2016.pdf)
 **VISIT** [228 Illawarra Rd, Marrickville NSW 2204](https://www.google.com.au/maps/place/228+Illawarra+Rd,+Marrickville+NSW+2204/data=!4m2!3m1!1s0x6b12b0643971d4cf:0xfd04759e18342c41?sa=X&ved=0ahUKEwi7wbr6tt_KAhWo26YKHa5iDxkQ8gEIGzAA)
-**CONTACT** [info[at]frontyardprojects.org](mailto:info@frontyardprojects.org) or [Join us on Slack](https://frontyard-slackin.herokuapp.com/)
+**CONTACT** [frontyardprojects[at]gmail[dot]com](mailto:frontyardprojects@gmail.com) or [Join us on Slack](https://frontyard-slackin.herokuapp.com/)
 
 Frontyard is open for events and by appointment, plus first Thursdays of each month from 4.30 - 6.30pm for open house, or when listed by the librarians.
 

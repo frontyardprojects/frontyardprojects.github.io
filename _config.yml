@@ -7,7 +7,7 @@
 
 # Site settings
 title: frontyard
-email: info@frontyardprojects.org
+email: frontyardprojects@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research, with arts at its heart. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -62,6 +62,6 @@ prose:
           label: dates of residency
     _supporters:
       - name: month
-        field: 
+        field:
           element: 'text'
           label: month covered (eg. January not Jan)
