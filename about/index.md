@@ -5,7 +5,7 @@ title: about
 ### In a nut shell:
 
 **Frontyard Projects Inc.**
-*Local, future-focused arts.*
+*Local, future-focused.*
 
 - research residencies
 - public programs
@@ -52,18 +52,19 @@ A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the lo
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
 **Current Board:**
-Connie Anthes (Secretary, Public Officer)
+Connie Anthes (Chair)
 Luke Bacon
 Kush Badhwar
 Julia Bavyka
-Sally Chessell
-Clare Cooper (Chair)
+Sally Chessell (Secretary, Public Officer)
+Clare Cooper (Deputy Chair)
 Alexandra Crosby
 Jacquelene Drinkall
-Benjamin Forster (Deputy Chair)
-Thomas Kern (Co Interim Treasurer)
+Benjamin Forster
+Bianca Hester
+Thomas Kern (Co Treasurer)
 Sophea Lerner
-Nick McGuigan (Co Interim Treasurer)
+Nick McGuigan (Co Treasurer)
 
 **Previous Board Members:**
 Rei Cheetham
