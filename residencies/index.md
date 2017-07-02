@@ -12,12 +12,23 @@ In return for the space and time to think, Frontyard asks for a small gift of ti
 
 **Practical Stuff:**
 
-- In each Getaroom - table, chair, shelves, working wall
+In each #getaroom: 
+- table, chair, shelves, working wall
 - Access Hours - round the clock
 - Public Access and Programs - Thursday to Sunday and Thursday night
 - Internet - yes
-- Staying over - no
-- Other assets - workshop area, small kitchen, kitchen garden, library, hammock, pro-active people!
+- Sleeping over - no! (but if you are from out of town, we can help find you a bed)
+- Other assets - workshop area, small kitchen, kitchen garden, library, hammocks, pro-active people!
+
+How do I #getaroom?
+We have a 'no application' policy, so as long as you are happy to sign our MoU and we can find a time slot that suits, you're in! We prefer to meet you face to face first, unless you are too far away to drop in. Come along to our monthly *Open House* (first Thursday of each month, from 430-630pm) or drop us an email to make time for a cuppa.
+
+What we ask from you.
+- fill out our Google form so we have your contact details, and sign our MoU
+- book an induction with us via email or #slack 1 week before your residency starts
+- send us 1-2 sentences about what you'll be working and an image, so we can put it on our website and Insta
+- Upload images and text you want to share to our Flickr archive when you're in residence
+- Tell us when and what you want to do as a 'gift of time' for the Frontyard community - you don't need to know before you start so no rush!
 
 ------
 
