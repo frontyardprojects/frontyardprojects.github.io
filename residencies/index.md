@@ -12,7 +12,7 @@ In return for the space and time to think, Frontyard asks for a small gift of ti
 
 **Practical Stuff:**
 
-In each #getaroom: 
+In each #getaroom:
 - table, chair, shelves, working wall
 - Access Hours - round the clock
 - Public Access and Programs - Thursday to Sunday and Thursday night
@@ -34,7 +34,6 @@ What we ask from you.
 
 ### All current and past residents:
 
+Ilaria Vanni, Benjamin Byrne, Australian Unemployed Workers’ Union (Inner West Sydney Branch), Gianni Wise, Jacquelene Drinkall, Tilly Glascodine & Amy Parker, Matthew Hopkins, Andrew Burrell, Sara Rosa, Leah Landau, Salazar Quas, Julia Dunne, Futuring Migration, Michelle Miller, Nick Lee, MONO FOMO project, Alice Williams, Kush Badhwar, Sumugan Sivanesan, Amelia Dale, Belle Boyde and Daniele Hromek and Ali, Chris Carmody, Jo Paterson Kinniburgh, a.j. carruthers, Nicholas McGuigan & Thomas Kern, Stephanie Cobon & Will Scott-Kemmis, the Mlаden Stilinović Study Centre, Sophea Lerner, Trish Wood, Dani Zorbas, Suburban Bird Spotters, Dating an economist radio series production, POLISPLAN, Kirsten Seale, Non-Cash Assets Platform, Psychpathologies of Cognitive Capitalism, Julian Day, the Marrickville ugliness, Performing/Translating Bureaucracy, Mia Ardianto, Open Australia Hacktivists, Favour Economy, Mapping edges, Beth Caird and Aodhan Madden, ArtCycle, Sasha Abrams, Swerve & Sierra & kids - caravan project, Laura Lotti, Making Time, ...
+
 For more in depth stories from previous residents see [our Flickr](https://www.flickr.com/photos/139358427@N03/albums).
-
-
-{% include residents.html %}
