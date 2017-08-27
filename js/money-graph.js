@@ -76,5 +76,10 @@
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 2.5)
       .attr("d", line);
+
+    g.append("text")
+     .attr("fill", "#000")
+     .attr("y", 10)
+     .text("Our bank balance over time");
   }
 })()
