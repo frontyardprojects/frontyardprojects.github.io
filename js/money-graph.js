@@ -50,7 +50,8 @@
         .x(function(d) { return x(d.date); })
         .y(function(d) { return y(d.value); });
 
-    var last_updated_at = data[data.length - 1].date.toDateString();
+    var date_format = d3.timeFormat("%d/%m/%Y");
+    var last_updated_at = date_format(data[data.length - 1].date);
 
     // g.append("g")
     //   .attr("transform", "translate(0," + height + ")")
