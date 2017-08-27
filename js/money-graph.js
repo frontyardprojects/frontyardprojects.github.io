@@ -50,6 +50,8 @@
         .x(function(d) { return x(d.date); })
         .y(function(d) { return y(d.value); });
 
+    var last_updated_at = data[data.length - 1].date.toDateString();
+
     // g.append("g")
     //   .attr("transform", "translate(0," + height + ")")
     //   .call(d3.axisBottom(x))
@@ -81,6 +83,6 @@
      .attr("fill", "#000")
      .attr("y", 10)
      .style("font-weight", "bold")
-     .text("Our bank balance over time");
+     .text("Our bank balance over time, updated " + last_updated_at );
   }
 })()
