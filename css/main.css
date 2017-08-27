@@ -15,13 +15,6 @@ nav {
 	padding-top: 2.5em;
 }
 
-div#moneygraph {
-	position: absolute;
-	top: 0.5em;
-	overflow: hidden;
-	width: 100%;
-}
-
 @media only screen and (max-width: 480px){
 
 	nav {
@@ -34,7 +27,3 @@ div#moneygraph {
 
 }
 
-div#moneygraph svg {
-	width: 600px;
-	float: right;
-}
