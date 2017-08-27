@@ -80,6 +80,7 @@
     g.append("text")
      .attr("fill", "#000")
      .attr("y", 10)
+     .style("font-weight", "bold")
      .text("Our bank balance over time");
   }
 })()
