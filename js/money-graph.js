@@ -50,6 +50,9 @@
         .x(function(d) { return x(d.date); })
         .y(function(d) { return y(d.value); });
 
+    var date_format = d3.timeFormat("%d/%m/%Y");
+    var last_updated_at = date_format(data[data.length - 1].date);
+
     // g.append("g")
     //   .attr("transform", "translate(0," + height + ")")
     //   .call(d3.axisBottom(x))
@@ -76,5 +79,11 @@
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 2.5)
       .attr("d", line);
+
+    g.append("text")
+     .attr("fill", "#000")
+     .attr("y", 10)
+     .style("font-weight", "bold")
+     .text("Our bank balance over time, updated " + last_updated_at );
   }
 })()
