@@ -21,7 +21,7 @@ In each #getaroom:
 - Other assets - workshop area, small kitchen, kitchen garden, library, hammocks, pro-active people!
 
 How do I #getaroom?
-We have a 'no application' policy, so as long as you are happy to sign our MoU and we can find a time slot that suits, you're in! We prefer to meet you face to face first, unless you are too far away to drop in. Come along to our monthly *Open House* (first Thursday of each month, from 430-630pm) or drop us an email to make time for a cuppa.
+We have a 'no application' policy, so as long as you are happy to sign our MoU and we can find a time slot that suits, you're in! We prefer to meet you face to face first, unless you are too far away to drop in. Come along to our monthly *Open House* (last Sunday of each month, from 1-3pm) or drop us an email to make time for a cuppa.
 
 What we ask from you.
 - fill out our Google form so we have your contact details, and sign our MoU
