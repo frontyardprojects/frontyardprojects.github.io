@@ -51,6 +51,5 @@
 		{% endif %}
 
 	{% endfor %}
-	<a href="https://wiki.frontyardprojects.org">wiki</a>
 {% endcapture %}
 {{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip | split : '|' | join : ' | '}}
