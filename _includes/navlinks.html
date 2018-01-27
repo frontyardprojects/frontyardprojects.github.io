@@ -7,7 +7,7 @@
 		{% else %}
 			<a href="{{ site.baseurl }}/">home</a>
 		{% endif %}
-		 | 
+		 |
 	{% endif %}
 
 	{% assign entries = site.pages | sort: "path" %}
@@ -17,9 +17,9 @@
 		{% capture slug %}{{ entry.url | split: "/" | last }}{% endcapture %}
 		{% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
 		{% if current == include.context %}
-			
+
 			{% assign title = entry.title | default: slug | downcase | replace:'%20',' ' %}
-			
+
 			{% if page.url contains entry.url %}
 				{% if page.url == entry.url %}
 					<del>{{ title }}</del>
@@ -27,7 +27,7 @@
 					{% assign paths = page.url | split: "/" %}
 					{% assign urlpath = '' %}
 					{% for path in paths %}
-						{% assign urlpath = urlpath | append: path | append: '/' %}	
+						{% assign urlpath = urlpath | append: path | append: '/' %}
 						{% assign t = path | downcase | replace:'%20',' ' %}
 						{% for e in site.pages %}
 							{% if e.url == urlpath %}
@@ -38,19 +38,19 @@
 						{% if page.url == urlpath %}
 							<del>{{ t }}</del>
 						{% elsif forloop.index > 1 %}
-							<a href="{{ site.baseurl }}{{ urlpath }}">{{ t }}</a> / 
+							<a href="{{ site.baseurl }}{{ urlpath }}">{{ t }}</a> /
 						{% endif %}
 					{% endfor %}
 				{% endif %}
 			{% else %}
-				<a href="{{ site.baseurl }}{{ entry.url }}">{{ title }}</a> 
+				<a href="{{ site.baseurl }}{{ entry.url }}">{{ title }}</a>
 			{% endif %}
-		
+
 			|
-		
+
 		{% endif %}
 
 	{% endfor %}
-
+	| <a href="https://wiki.frontyardprojects.org">wiki</a>
 {% endcapture %}
 {{ html | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' | strip | split : '|' | join : ' | '}}
