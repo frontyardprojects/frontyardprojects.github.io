@@ -1,82 +1,34 @@
 #
-# top value shows (+ bank balance)
-# archive shows bank balance
-# over time we show a graph of our finances
+# over time we show a graph of BreathingSpace
 # e.g.
 # - value: x
 #   date: Day/Month/Year
 #
-- value: 3850.00
+- value: 8.46
+  date: 29/1/2018
+- value: 10.49
   date: 31/12/2017
-- value: 3829.42
-  date: 15/12/2017
-- value: 3808.68
+- value: 10.12
   date: 30/11/2017
-- value: 3789.22
-  date: 15/11/2017
-- value: 3518.61
-  date: 30/10/2017
-- value: 3677.86
-  date: 15/10/2017
-- value: 3611.50
+- value: 9.73
+  date: 31/10/2017
+- value: 10.26
   date: 30/09/2017
-- value: 3720.79
-  date: 15/09/2017
-- value: 3720.79
+- value: 9.27
   date: 31/08/2017
-- value: 3596.35
-  date: 15/08/2017
-- value: 3447.88
+- value: 8.59
   date: 31/07/2017
-- value: 3363.54
-  date: 15/07/2017
-- value: 3458.63
+- value: 8.61
   date: 30/06/2017
-- value: 3222.69
-  date: 15/06/2017
-- value: 1252.69
+- value: 3.54
   date: 31/05/2017
-- value: 1338.64
-  date: 15/05/2017
-- value: 1298.64
+- value: 3.67
   date: 30/04/2017
-- value: 1668.74
-  date: 15/04/2017
-- value: 1338.80
-  date: 30/03/2017
-- value: 1684.25
-  date: 16/03/2017
-- value: 1587.71
+- value: 3.78
+  date: 31/03/2017
+- value: 2.32
   date: 28/02/2017
-- value: 1372.71
-  date: 15/02/2017
-- value: 1662.71
-  date: 29/01/2017
-- value: 1632.71
-  date: 17/01/2017
-- value: 1364.52
+- value: 3.22
+  date: 31/01/2017
+- value: 2.23
   date: 31/12/2016
-- value: 1430.75
-  date: 29/11/2016
-- value: 1090.75
-  date: 14/11/2016
-- value: 670.01
-  date: 26/10/2016
-- value: 475.01
-  date: 12/10/2016
-- value: 547.86
-  date: 02/10/2016
-- value: 297.27
-  date: 21/09/2016
-- value: 302.94
-  date: 15/09/2016
-- value: 364.74
-  date: 15/08/2016
-- value: 207.16
-  date: 01/08/2016
-- value: 580.13
-  date: 17/07/2016
-- value: 579.37
-  date: 27/06/2016
-- value: 383.33
-  date: 08/06/2016

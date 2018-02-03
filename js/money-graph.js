@@ -61,7 +61,7 @@
         .attr("transform", "translate( " + width + ", 0 )")
         .call(d3.axisRight(y)
           .ticks(2)
-          .tickFormat(function(d) { return '$'+d3.format(",")(d); })
+          .tickFormat(function(d) { return d3.format(",")(d); })
         );
       // .append("text")
       //   .attr("fill", "#000")
