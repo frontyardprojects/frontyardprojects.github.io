@@ -84,6 +84,6 @@
      .attr("fill", "#000")
      .attr("y", 10)
      .style("font-weight", "bold")
-     .text("Our bank balance over time, updated " + last_updated_at );
+     .text("A big thank you to all donors who gave **frontyard** BreathingSpace*, updated " + last_updated_at );
   }
 })()
