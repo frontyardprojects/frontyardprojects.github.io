@@ -2,8 +2,8 @@
 ---
 
 **FRONTYARD PROJECTS** *Local, future-focused*
-**BREATHINGSPACE** <a href='#moneygraph' title='What is BreathingSpace?'><span style="color:green">{{ site.data.money.first.value }}</span> (last updated {{site.data.money.first.date}})</a>
-**ANNUAL REPORTS** [2017](/20180226_FY_StatementsNotes2017.pdf) [2016](/20170320_FY_StatementsNotes2016.pdf)
+**BREATHING SPACE** <a href='#moneygraph' title='What is BreathingSpace?'><span style="color:green">{{ site.data.money.first.value }}</span></a> (last updated {{site.data.money.first.date}})
+**ANNUAL REPORTS** [2017](/20180226_FY_StatementsNotes2017.pdf), [2016](/20170320_FY_StatementsNotes2016.pdf)
 **VISIT** [228 Illawarra Rd, Marrickville NSW 2204](https://www.google.com.au/maps/place/228+Illawarra+Rd,+Marrickville+NSW+2204/data=!4m2!3m1!1s0x6b12b0643971d4cf:0xfd04759e18342c41?sa=X&ved=0ahUKEwi7wbr6tt_KAhWo26YKHa5iDxkQ8gEIGzAA)
 **CONTACT** [frontyardprojects[at]gmail[dot]com](mailto:frontyardprojects@gmail.com) or [Join us on Slack](https://frontyard-slackin.herokuapp.com/)
 
