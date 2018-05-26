@@ -1,6 +1,7 @@
 
 {% if include.context.covered %}
 <h4>{{include.context.month}} Donors @ Frontyard:</h4>
+<p>Frontyard is made possible from thanks to the non-financial contribution of countless friends. It is not possible to account for all this labour terms of $’s or individual names, but it is equally important to the survival of this experiment.</p>
 <p>
 {% for cover in include.context.covered %}
 (${{cover.value}}) {{cover.item}} brought to you by {% if cover.name %}<span style="color:red">{{cover.name}}</span>{% else %} ______{% endif %} <br>
