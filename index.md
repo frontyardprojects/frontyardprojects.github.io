@@ -1,6 +1,7 @@
 ---
 ---
 
+
 **FRONTYARD PROJECTS** *Eternally dangling threads.*
 **BREATHING SPACE** <a href='#moneygraph' title='What is BreathingSpace?'><span style="color:green">{{ site.data.money.first.value }}</span></a> (last updated {{site.data.money.first.date}})
 **ANNUAL REPORTS** [2017](/20180226_FY_StatementsNotes2017.pdf), [2016](/20170320_FY_StatementsNotes2016.pdf)
