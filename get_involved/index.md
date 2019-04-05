@@ -5,7 +5,7 @@ title: get involved
 # Get involved.
 
 If you would like to participate or lend support to one of our many ongoing projects, this is your definitive list of what’s live and when.
-Initially, it’s best to drop in on our first Thursdays **open house** from 4.30-6.30pm or send an expression of interest to [frontyardprojects@gmail.com](mailto:frontyardprojects@gmail.com) and we can put you in touch with the organiser for that project.
+Initially, it’s best to drop in on our **open house** every last Sunday of the month from 1-3pm, or send an expression of interest to [frontyardprojects@gmail.com](mailto:frontyardprojects@gmail.com) and we can put you in touch with the organiser for that project.
 
 #### \* ALT/CONFERENCE: ZINE-MAKERS SYMPOSIUM \*
 Join Jessie Lynn and Sara Rosa in organising a day conference for the Other Worlds Zine Fair in late May 2017.
