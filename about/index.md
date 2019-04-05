@@ -52,21 +52,21 @@ A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the lo
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
 **Current Board:**
-Connie Anthes (Public Officer)
-Luke Bacon (Co-Chair)
+Connie Anthes (Public Officer & Co-Chair)
+Luke Bacon
 Kush Badhwar
-Julia Bavyka
+Julia Bavyka (Deputy Chair)
 Sally Chessell
-Carolyn Craig (Secretary)
-Steph Cobon (Deputy Chair)
+Carolyn Craig
+Steph Cobon
 Clare Cooper
-Alexandra Crosby (Co-Chair)
+Alexandra Crosby (Co-Secretary)
 Jacquelene Drinkall
-Benjamin Forster
+Benjamin Forster (Co-Chair)
 Bianca Hester
-Thomas Kern (Co Treasurer)
-Sophea Lerner
-Nick McGuigan (Co Treasurer)
+Thomas Kern (Co-Treasurer)
+Sophea Lerner (Co-Secretary)
+Nick McGuigan (Co-Treasurer)
 
 **Previous Board Members:**
 Rei Cheetham
