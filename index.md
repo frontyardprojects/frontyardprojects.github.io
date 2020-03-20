@@ -8,6 +8,18 @@
 **VISIT** [228 Illawarra Rd, Marrickville NSW 2204](https://www.google.com.au/maps/place/228+Illawarra+Rd,+Marrickville+NSW+2204/data=!4m2!3m1!1s0x6b12b0643971d4cf:0xfd04759e18342c41?sa=X&ved=0ahUKEwi7wbr6tt_KAhWo26YKHa5iDxkQ8gEIGzAA)
 **CONTACT** [details](/contact/)
 
+---- 
+
+**TEMPORARY CLOSURE OF FRONTYARD - COVID-19**
+ 
+Due to the spread of COVID-19, Inner West Council has suspended use of Council facilities including Artist Residency spaces. In accordance with the suspension, frontyard will be closed from 20th March until 5th April 2020.
+ 
+We will miss inviting you into our building, but your health and safety come first! We will keep frontyard alive in our Slack channel. Please join us! You are still welcome to drop by, hang out in the frontyard and water the plants out back.
+ 
+The general processes and information outlined below will recommence when we know it is safe to open the space.
+
+----
+
 Frontyard is open for events and by appointment, plus last Sunday of each month 1-3pm for open house, or when listed by the librarians.
 
 A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
