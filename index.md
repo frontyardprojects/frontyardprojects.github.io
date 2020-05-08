@@ -12,7 +12,7 @@
 
 **TEMPORARY CLOSURE OF FRONTYARD - COVID-19**
  
-Due to the spread of COVID-19, Inner West Council has suspended use of Council facilities including Artist Residency spaces. In accordance with the suspension, frontyard will be closed from 20th March until 5th April 2020.
+Due to the spread of COVID-19, Inner West Council has suspended use of Council facilities including Artist Residency spaces. In accordance with the suspension, frontyard will be closed from 20th March 2020 until further notice.
  
 We will miss inviting you into our building, but your health and safety come first! We will keep frontyard alive in our Slack channel. Please join us! You are still welcome to drop by, hang out in the frontyard and water the plants out back.
  
