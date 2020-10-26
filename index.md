@@ -16,6 +16,13 @@
   <p>Due to the spread of COVID-19, Inner West Council has placed restrictions on the use of Council facilities including Artist Residency spaces. In accordance with the restrictions, frontyard is limited to a maximum of 10 people in the building until further notice.</p>
  
   <p>Please be mindful of the number of people at FY, your health and safety come first! Frontyard is active and alive in our Slack channel. Please join us! You are still welcome to drop by, hang out in the frontyard and water the plants out back.</p>
+
+  <p><strong>Capacity</strong>: 1 person per 2m in the outdoor spaces; 4 people in the workshop space; 2 people in the residency rooms; and, 2 people in the library.</p>
+
+  <figure>
+    <figcaption>Floorplan of Frontyard with the capacity for the number of people per space because of the pandemic.</figcaption>
+    <img src="/images/2020-10-18_covid_map.jpg" alt="Floorplan of Frontyard building with the number of people per space" />
+  </figure>
 </div>
 
 ----
