@@ -10,11 +10,13 @@
 
 ---- 
 
-**IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19**
+<div id="covid-19">
+  <h2>IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19</h2>
  
-Due to the spread of COVID-19, Inner West Council has placed restrictions on the use of Council facilities including Artist Residency spaces. In accordance with the restrictions, frontyard is limited to a maximum of 10 people in the building until further notice.
+  <p>Due to the spread of COVID-19, Inner West Council has placed restrictions on the use of Council facilities including Artist Residency spaces. In accordance with the restrictions, frontyard is limited to a maximum of 10 people in the building until further notice.</p>
  
-Please be mindful of the number of people at FY, your health and safety come first! Frontyard is active and alive in our Slack channel. Please join us! You are still welcome to drop by, hang out in the frontyard and water the plants out back.
+  <p>Please be mindful of the number of people at FY, your health and safety come first! Frontyard is active and alive in our Slack channel. Please join us! You are still welcome to drop by, hang out in the frontyard and water the plants out back.</p>
+</div>
 
 ----
 
