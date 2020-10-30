@@ -22,12 +22,12 @@ Follow us on [Twitter](https://twitter.com/Frontyard_Inc), [Instagram](https://w
 
 ### In the words of others:
 
-[Decommissioning and recommissioning: first day at frontyard](https://marketsplacescities.wordpress.com/2016/05/26/decommissioning-and-recommissioning-first-day-at-frontyard/) (May 2016)
+[Decommissioning and recommissioning: first day at frontyard](https://vernacularurbanisms.wordpress.com/2016/05/26/decommissioning-and-recommissioning-first-day-at-frontyard/) (May 2016)
 By Kirsten Seale (a recent resident at frontyard)
 
 > Frontyard is, above all, concerned with the future of the arts as grounded, emplaced practice and theory within wider communities, and part of that involves decommissioning the arts from the discursive positions into which it has been forced by neo-liberal political and cultural economies.
 
-[Frontyard](http://thethousands.com.au/sydney/stray/frontyard) (June 2016)
+Article on Frontyard from The Thousands (June 2016, now-offline)
 By Jai Pyne (local artist/writer)
 
 > ... Frontyard is less concerned with the product and more concerned with facilitating the making of art, involving the community in this process as well as reclaiming the arts back from the corner that they've been jammed into by our increasingly conservative government.
