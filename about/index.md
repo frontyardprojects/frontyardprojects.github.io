@@ -55,18 +55,21 @@ Our aim is to facilitate and nurture collaborations between people with a mix of
 Connie Anthes (Public Officer & Co-Chair)
 Luke Bacon
 Kush Badhwar
-Julia Bavyka (Deputy Chair)
+Julia Bavyka (Co-Chair)
 Sally Chessell
-Carolyn Craig
+Carolyn Craig (Co-Secretary)
 Steph Cobon
 Clare Cooper
-Alexandra Crosby (Co-Secretary)
+Alexandra Crosby (Deputy Chair)
 Jacquelene Drinkall
-Benjamin Forster (Co-Chair)
+Benjamin Forster
+Lyn Heazlewood (Co-Secretary)
 Bianca Hester
 Thomas Kern (Co-Treasurer)
-Sophea Lerner (Co-Secretary)
+Sophea Lerner 
 Nick McGuigan (Co-Treasurer)
+Leen Rieth
+Tessa Zettel (Co-Chair)
 
 **Previous Board Members:**
 Rei Cheetham
