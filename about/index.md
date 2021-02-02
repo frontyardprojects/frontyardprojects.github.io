@@ -41,10 +41,10 @@ By Mapping Edges (previous residents at Frontyard)
 [Frontyard for Canvas on FBi 94.5FM](https://archive.org/details/Frontyardoncanvas)
 By Olivia Rosenman (Frontyard kimchi leader and local journalist)
 
-[test](https:///google.com)
-Hey Julia! Fix me please.
-
 <iframe src="https://archive.org/embed/Frontyardoncanvas" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+[The future of the arts with Frontyard's Ali Crosby](https://soundcloud.com/radio-skid-row/the-future-of-the-arts-with-frontyards-ali-crosby-29102020) (October 2020)
+By Radio Skid Row 
 
 * * * *
 
