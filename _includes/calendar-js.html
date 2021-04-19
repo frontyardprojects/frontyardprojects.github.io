@@ -49,7 +49,7 @@
   }
 
   function listEventsByYear(year, month) {
-    var endOfTheYear = new Date(year + 1, 0);
+    var endOfTheYear = new Date(Math.floor(Number(year)) + 1, 0);
     var now = new Date();
     var isCurrentYear = endOfTheYear.getFullYear() === now.getFullYear();
     listEvents(
