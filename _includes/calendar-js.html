@@ -51,12 +51,12 @@
   function listEventsByYear(year, month) {
     var endOfTheYear = new Date(Math.floor(Number(year)) + 1, 0);
     var now = new Date();
-    var isCurrentYear = endOfTheYear.getFullYear() === now.getFullYear();
+    var isNextYear = endOfTheYear.getFullYear() === (now.getFullYear() + 1);
     listEvents(
       {
         calendarId: calendar_id,
         timeMin: new Date(year, 0).toISOString(),
-        timeMax: isCurrentYear ? now.toISOString() : endOfTheYear.toISOString(),
+        timeMax: isNextYear ? now.toISOString() : endOfTheYear.toISOString(),
         showDeleted: false,
         singleEvents: true,
         maxResults: 300,
