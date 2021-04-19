@@ -1,5 +1,5 @@
 ---
-title: "past in 2019"
+title: "in 2019"
 ---
 
 ### Get involved:
