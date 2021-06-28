@@ -4,6 +4,8 @@
 # - value: x
 #   date: Day/Month/Year
 #
+- value: 9.90
+  date: 28/06/2021
 - value: 10.22
   date: 31/05/2021
 - value: 10.54
