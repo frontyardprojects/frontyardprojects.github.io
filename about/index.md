@@ -55,14 +55,13 @@ A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the lo
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
 **Current Board:**
-Alexandra Crosby (Co-Secretary)
 Benjamin Forster
 Bianca Hester
 Carolyn Craig 
 Clare Cooper
 Connie Anthes (Public Officer)
 Jacquelene Drinkall
-Julia Bavyka (Co-Secretary)
+Julia Bavyka (Secretary)
 Kush Badhwar
 Leen Rieth
 Luke Bacon
@@ -75,9 +74,10 @@ Tessa Zettel (Chair)
 Thomas Kern (Co-Treasurer)
 
 **Previous Board Members:**
-Rei Cheetham
-Jehan Kanga
+Alexandra Crosby
 Eddie Hopely
+Jehan Kanga
+Rei Cheetham
 
 **Co-founders:**
 Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby,
