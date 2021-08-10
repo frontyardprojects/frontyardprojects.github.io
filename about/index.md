@@ -60,7 +60,6 @@ Bianca Hester
 Carolyn Craig 
 Clare Cooper
 Connie Anthes (Public Officer)
-Jacquelene Drinkall
 Julia Bavyka (Secretary)
 Kush Badhwar
 Leen Rieth
@@ -69,15 +68,16 @@ Lyn Heazlewood
 Nick McGuigan (Co-Treasurer)
 Sally Chessell
 Sophea Lerner (Deputy Chair)
-Steph Cobon
 Tessa Zettel (Chair)
 Thomas Kern (Co-Treasurer)
 
 **Previous Board Members:**
 Alexandra Crosby
 Eddie Hopely
+Jacquelene Drinkall
 Jehan Kanga
 Rei Cheetham
+Steph Cobon
 
 **Co-founders:**
 Connie Anthes, Rei Cheetham, Clare Cooper, Alexandra Crosby,
