@@ -13,17 +13,7 @@
 <div id="covid-19">
   <h2>IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19</h2>
  
-  <p>Due to reduced spread of COVID-19, Inner West Council has partly eased restrictions on the use of Council facilities including Artist Residency spaces. In accordance with the current regulations, frontyard is now open for a maximum of 26 people in the building, until further notice.</p>
- 
-  <p>We are very happy to welcome small events back to Frontyard. Please continue to be mindful of the number of people at FY, your health and safety come first! Frontyard is active and alive in our Slack channel. Please join us! You are always welcome to drop by, hang out in the frontyard and water the plants out back.</p>
-
-  <p><strong>Capacity</strong>: Unrestricted in the outdoor spaces; 11 people in the workshop space; 4 people in get-a-room A; 5 people in get-a-room B; 6 people in the library.</p>
-
-  <figure>
-    <figcaption>Floorplan of Frontyard with the capacity for the number of people per space because of the pandemic.</figcaption>
-    <img src="/images/covid-capacity-map-0321.jpg" alt="Floorplan of Frontyard building with the number of people per space" />
-  </figure>
-</div>
+  <p>Due to the extension of the stay-at-home order per the NSW State Government, Inner West Council has suspended use of all Community Venues until Saturday, 02 October. Please get in contact via 'Contact us' for any enquiries. </p>
 
 ----
 
