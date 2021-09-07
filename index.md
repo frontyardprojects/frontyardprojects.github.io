@@ -14,6 +14,7 @@
   <h2>IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19</h2>
  
   <p>Due to the extension of the stay-at-home order per the NSW State Government, Inner West Council has suspended use of all Community Venues until Saturday, 02 October. Please get in contact via 'Contact us' for any enquiries. </p>
+</div>
 
 ----
 
