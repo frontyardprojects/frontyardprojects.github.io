@@ -12,7 +12,7 @@
 
 <div id="covid-19">
   <h2>IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19</h2>
-  <p>In November 2021 Frontyard is opening back up for events, residencies and questions. The <a target="__blank" href="https://www.nsw.gov.au/covid-19/stay-safe/rules">Public Health Orders</a> apply for any gatherings on site. Capacity limits apply 1p/4sqm (in effect til 1 Dec) and 1p/2sqm (in effect from 1 Dec). <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries. We look forward to slowly meeting each other again.</p>
+  <p>In November 2021 Frontyard is opening back up for events, residencies and questions. The <a target="__blank" href="https://www.nsw.gov.au/covid-19/stay-safe/rules">Public Health Orders</a> apply for any gatherings on site. Capacity limits apply 1p/4sqm (in effect til 1 Dec) and 1p/2sqm (in effect from 1 Dec). See floor plan below. <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries. We look forward to slowly meeting each other again.</p>
 </div>
 
 ----
@@ -39,6 +39,6 @@ and email us what you would like to "cover us" for. Please do not feel constrain
 
 ------
 
-![floorplan](/images/floorplan.jpg)
+![floorplan](/images/covid-floorplan.jpg)
 
 Frontyard is currently supported by a rental subsidy from Inner West Council (aka Marrickville Council).
