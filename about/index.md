@@ -57,9 +57,12 @@ Our aim is to facilitate and nurture collaborations between people with a mix of
 **Current Board:**
 Benjamin Forster
 Bianca Hester
-Carolyn Craig 
+Carolyn Craig
+Clare Britton
 Clare Cooper
 Connie Anthes (Public Officer)
+Ella Cutler
+Jes Tyrrell
 Julia Bavyka (Secretary)
 Kush Badhwar
 Leen Rieth
