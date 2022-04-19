@@ -62,8 +62,8 @@ Clare Britton
 Clare Cooper
 Connie Anthes (Public Officer)
 Ella Cutler
-Jes Tyrrell
-Julia Bavyka (Secretary)
+Jes Tyrrell (Secretary)
+Julia Bavyka
 Kush Badhwar
 Leen Rieth
 Luke Bacon
