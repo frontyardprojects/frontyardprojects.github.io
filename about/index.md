@@ -57,7 +57,7 @@ Our aim is to facilitate and nurture collaborations between people with a mix of
 **Current Board:**
 Benjamin Forster
 Bianca Hester
-Carolyn Craig
+Carolyn Craig (Co-Chair)
 Clare Britton
 Clare Cooper
 Connie Anthes (Public Officer)
@@ -65,13 +65,11 @@ Ella Cutler
 Jes Tyrrell (Secretary)
 Julia Bavyka
 Kush Badhwar
-Leen Rieth
 Luke Bacon
 Lyn Heazlewood 
 Nick McGuigan (Co-Treasurer)
-Sally Chessell
 Sophea Lerner (Deputy Chair)
-Tessa Zettel (Chair)
+Tessa Zettel (Co-Chair)
 Thomas Kern (Co-Treasurer)
 
 **Previous Board Members:**
@@ -79,7 +77,9 @@ Alexandra Crosby
 Eddie Hopely
 Jacquelene Drinkall
 Jehan Kanga
+Leen Rieth
 Rei Cheetham
+Sally Chessell
 Steph Cobon
 
 **Co-founders:**
