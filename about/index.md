@@ -55,11 +55,9 @@ A Not-Only-Artist Run Initiative. A pro-active, multi-purpose space where the lo
 Our aim is to facilitate and nurture collaborations between people with a mix of disciplines with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
 **Current Board:**
-Benjamin Forster
 Bianca Hester
 Carolyn Craig (Co-Chair)
 Clare Britton
-Clare Cooper
 Connie Anthes (Public Officer)
 Ella Cutler
 Jes Tyrrell (Secretary)
@@ -74,6 +72,8 @@ Thomas Kern (Co-Treasurer)
 
 **Previous Board Members:**
 Alexandra Crosby
+Benjamin Forster
+Clare Cooper
 Eddie Hopely
 Jacquelene Drinkall
 Jehan Kanga
