@@ -4,6 +4,8 @@
 # - value: x
 #   date: Day/Month/Year
 #
+- value: 3.41
+  date: 31/07/2022
 - value: 3.36
   date: 26/06/2022
 - value: 7.69
