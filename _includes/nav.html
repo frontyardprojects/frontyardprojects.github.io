@@ -1,5 +1,5 @@
 
-<nav id="navigation" style="font-size: 2em; font-weight: bold;">
+<nav id="navigation" style="font-size: 1.5em; font-weight: bold;">
 	<a href="/">home</a> |
 	<a href="/about/">about</a> |
 	<a href="/contact/">contact us</a> |
@@ -14,7 +14,7 @@
 {% if depth > 1 %}
 	{% capture links %}{% include navlinks.html context=page.url %}{% endcapture %}
 	{% if links.size > 2 %}
-	<h3>more: {{ links }}</h3>
+	<p><strong>more:</strong> {{ links }}</p>
 	{% endif %}
 {% endif %}
 </nav>
