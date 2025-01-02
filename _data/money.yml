@@ -4,29 +4,31 @@
 # - value: x
 #   date: Day/Month/Year
 #
-- value: 1.18
+- value: 2.92
+  date: 31/12/2024
+- value: 1.62
   date: 23/11/2024
-- value: 1.55
+- value: 1.80
   date: 31/10/2024
-- value: 1.10
+- value: 1.25
   date: 23/09/2024
-- value: 0.64
+- value: 0.80
   date: 31/08/2024
-- value: 1.09
+- value: 1.25
   date: 22/07/2024
-- value: 1.39
+- value: 1.54
   date: 30/06/2024
-- value: 0.93
+- value: 1.06
   date: 31/05/2024
-- value: 1.43
+- value: 1.56
   date: 28/04/2024
-- value: 1.47
+- value: 1.60
   date: 31/03/2024
-- value: 1.49
+- value: 1.62
   date: 29/02/2024
-- value: 1.24
+- value: 1.68
   date: 31/01/2024
-- value: 1.29
+- value: 1.73
   date: 31/12/2023
 - value: 1.61
   date: 30/11/2023
