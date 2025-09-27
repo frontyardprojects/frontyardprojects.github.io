@@ -4,6 +4,10 @@
 # - value: x
 #   date: Day/Month/Year
 #
+- value: 5.38
+  date: 28/09/2025
+- value: 4.10
+  date: 31/08/2025
 - value: 4.85
   date: 27/07/2025
 - value: 4.83
