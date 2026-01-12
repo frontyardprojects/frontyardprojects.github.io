@@ -4,20 +4,20 @@
 # - value: x
 #   date: Day/Month/Year
 #
-- value: 6.59
+- value: 7.13
   date: 31/12/2025
-- value: 5.90
+- value: 6.84
   date: 29/11/2025
-- value: 4.86
+- value: 5.80
   date: 31/10/2025
-- value: 5.38
+- value: 6.32
   date: 28/09/2025
-- value: 4.10
+- value: 5.04
   date: 31/08/2025
-- value: 4.85
+- value: 4.79
   date: 27/07/2025
-- value: 4.83
-  date: 29/06/2025
+- value: 4.77
+  date: 27/06/2025
 - value: 4.55
   date: 25/05/2025
 - value: 4.70
