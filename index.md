@@ -12,7 +12,7 @@
 
 Frontyard. A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
-Frontyard is open for events and by appointment, plus last Sunday of each month 1-3pm for open house, or when listed by the librarians. <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries.
+Frontyard is open for events, residencies, gardening and by appointment, plus last Sunday of each month 1-3pm for open house, or when listed by the librarians. <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries.
 
 {% include library-calendar-js.html %}
 
