@@ -12,7 +12,7 @@ We would love to hear from you, but before emailing have a read below for inform
 
 Our email account is managed by a number of the frontyard team. We are all volunteers and are not always able to respond immediately. To be honest we are struggling with keeping on top of the inbox. 
 
-**The quickest way to get a response is through always through [our Slack](https://wiki.frontyardprojects.org/everything/Slack).**
+**The quickest way to get a response is always through [our Slack](https://wiki.frontyardprojects.org/everything/Slack).**
 
 ## Common queries
 
@@ -32,6 +32,6 @@ Again, the best way to contact us is either at the Open House, last Sunday of th
 
 ### Collaborating with "frontyard"
 
-`:)` The frontyard Janitors will discuss you're idea at the upcoming monthly meeting, and then open it up to everyone at frontyard. We usually assign two interested janitors to help facilitate a response to outside proposals. They'll handle communication with you.
+`:)` The frontyard Janitors will discuss your idea at the upcoming monthly meeting, and then open it up to everyone at frontyard. We usually assign two interested janitors to help facilitate a response to outside proposals. They'll handle communication with you.
 
 It's still a great idea to visit frontyard at the next Open House, or any event to get [the vibe](https://wiki.frontyardprojects.org/everything/Frontyard#The_Vibe).
