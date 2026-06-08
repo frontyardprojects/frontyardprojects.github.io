@@ -10,16 +10,9 @@
 
 ---- 
 
-<div id="covid-19">
-  <h2>IMPORTANT INFORMATION ABOUT FRONTYARD AND COVID-19</h2>
-  <p>Frontyard is open back up for events, residencies, gardening and questions. Please continue to make use of the hand sanitiser and cleaning equipment on site. If you’re feeling sick - please rest and recharge. <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries. We look forward to slowly meeting each other again.</p>
-</div>
+Frontyard. A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
 
-----
-
-Frontyard is open for events and by appointment, plus last Sunday of each month 1-3pm for open house, or when listed by the librarians.
-
-A Not-Only-Artist Run Initiative. A pro-active, flexible space for practical skills-sharing, community cultural engagement and critical research. Our aim is to challenge, facilitate and nurture collaborations between people with a passion for culture and to build a more resilient and sustainable independent arts community for the future.
+Frontyard is open for events and by appointment, plus last Sunday of each month 1-3pm for open house, or when listed by the librarians. <a href="https://www.frontyardprojects.org/contact/">Reach out</a> if you have any queries.
 
 {% include library-calendar-js.html %}
 
